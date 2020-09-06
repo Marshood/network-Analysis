@@ -5,7 +5,7 @@ First thing we do to create a network using makeNetwork.m, the network we create
 Note:  The clustering algorithm I wrote will be in the file MCL.m and the network in the file HW2Net1.NET
 Also, the clustering algorithm with different parameters in the files MCLe*r*.clu, Instead * will be listed the value of the parameters
 Note: To check the Markov algorithm in file MCL.m and compile the code, you can change the two parameters R, E in lines 13-14, and the number of the node's and the cluster's in line 11-12
-#Note:
+# Note:
 The images are saved in order from the first to the end are counted by serial number for example: Pic1, Pic2, …, PicN
 The first picture Pic1:
 <br>
@@ -16,7 +16,7 @@ With some processing on the network Pic2:
 ![image](https://user-images.githubusercontent.com/46463381/92322512-5b5fdd00-f03a-11ea-8369-71e85c1d7a16.png)
 
 <br><br>
-#Node:
+# Node:
 this is the first part that include the probability of 0.6 if in the same other cluster 30/2694
 
 The next picture produces the graph with the division we got Pic3
@@ -29,7 +29,7 @@ Pic4 :
 ![image](https://user-images.githubusercontent.com/46463381/92322530-7b8f9c00-f03a-11ea-8d79-5318938206b0.png)
 
 <br><br>
-#Now,
+# Now,
 after we run MCL Algorithm:
 In the first step if we take the two parameters E and R which will be equal to 2 
 The result after this step in Pic5 
@@ -114,7 +114,7 @@ Pic13:
 ![image](https://user-images.githubusercontent.com/46463381/92322642-125c5880-f03b-11ea-9912-6c8ac4b9f4b2.png)
 <br>
 If the R and E are equal to 32 PIC11
-##summary-
+## summary-
 When we increase the two parameters the number of clusters we will have will be less than the existing state (except if in the existing state we are in one cluster).
 And then if we increase one of the parameters for example a constant E and R we will also have a division with fewer clusters than what will be
 But if we increase the second parameter R and E constantly we can see that the number of clusters increases now until we reach the final state
